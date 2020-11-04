@@ -28,26 +28,17 @@ SSIS for SQL Server - SSIS catalog enabled in SQL Server.
 
 SSIS for Azure Data Factory - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
 
-File System - SSIS Catalog exported to the file system. If you don't have direct connections between source and target SSIS catalog and want to migrate the SSIS catalog. We can follow the below steps to do this.
-Choose the source as SSIS in SQL Server or SSIS in Azure Data Factory.
-Choose the target as a File system and choose a suitable windows folder location.
-Download the catalog as per choices. 
-Copy the downloaded Catalog folder to the target server.
-Use again the same utility on the target server and this time choose the source as a file system with the folder you copied in the above step.
-Choose target server SSIS in SQL server or SSIS in Azure Data Factory as applicable.
-and finish the migration with further choices.
-
-This utility supports all types of migrations using the above types of sources and targets except the File system to file system. 
+File System - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
 
 We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory.
 
 ### Choose Source 
 Choose SSIS in SQL Server from Source Type drop-down.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/Choose%20source.PNG)
+![](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20source.png){:height="30%" width="30%"}
 
 Provide SQL Server instance name. 
-Note here that Integration Services Catalog operations requires Windows Authenticatio hence SQL Server Authentication is not supported. 
+To perform operations on SSIS catalog, we have to use windows authentication. And user should have ssis_admin role.  
 
 ### Choose Target
 Choose SSIS in Azure Data Factory from the Target Type drop-down. 
