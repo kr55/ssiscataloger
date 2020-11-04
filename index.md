@@ -35,9 +35,8 @@ We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server
 ### Choose Source 
 Choose SSIS in SQL Server from Source Type drop-down.
 
-<img src="/media/Choosesource.png" :height="50%" width="50%"> </div>
 
-![this screen](/media/Choosesource.png)
+![this screen](/media/Choosesource.png) <!-- .element height="50%" width="50%" -->
 
 ![Image](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png)
 
