@@ -24,11 +24,11 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 ## Sources & Targets
 
 It supports the following source and target types. 
-SSIS for SQL Server - SSIS catalog enabled in SQL Server. 
+**SSIS for SQL Server** - SSIS catalog enabled in SQL Server. 
 
-SSIS for Azure Data Factory - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
+**SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
 
-File System - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
+**File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
 
 We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory.
 
