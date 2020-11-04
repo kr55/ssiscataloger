@@ -37,6 +37,8 @@ Choose SSIS in SQL Server from Source Type drop-down.
 
 <img src="../master/media/Choose%20Catalog%20folders.png" :height="50%" width="50%">
 
+![Image](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png)
+
 
 Provide SQL Server instance name. 
 To perform operations on SSIS catalog, we have to use windows authentication. And user should have ssis_admin role.  
