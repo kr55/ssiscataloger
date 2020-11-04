@@ -1,1 +1,9 @@
 theme: jekyll-theme-slate
+
+#Footer
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/kr55/'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/kr55/'
