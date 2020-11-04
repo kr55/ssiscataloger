@@ -37,9 +37,10 @@ Choose SSIS in SQL Server from Source Type drop-down.
 
 <img src="Choose%20Catalog%20folders.png" :height="50%" width="50%">
 
-![this screenshot](/media/Choose%20Catalog%20folders.png)
+![this screenshot](../master/media/Choose%20Target.png)
 
 ![Image](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png)
+
 
 
 Provide SQL Server instance name. 
