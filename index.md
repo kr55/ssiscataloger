@@ -24,6 +24,7 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 ## Sources & Targets
 
 It supports the following source and target types. 
+
 **SSIS for SQL Server** - SSIS catalog enabled in SQL Server. 
 
 **SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
