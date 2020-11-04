@@ -35,13 +35,7 @@ We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server
 ### Choose Source 
 Choose SSIS in SQL Server from Source Type drop-down.
 
-
-![this screen](/media/Choosesource.png) <!-- .element height="50%" width="50%" -->
-
-
-![this screen](/media/Choosesource.png) {:height="50%" width="50%"}
-
-<img src="media/Choosesource.png" width="600">
+<img src="media/ChooseSource.png" width="600">
 
 Provide SQL Server instance name. 
 To perform operations on SSIS catalog, we have to use windows authentication. And user should have ssis_admin role.  
@@ -49,7 +43,7 @@ To perform operations on SSIS catalog, we have to use windows authentication. An
 ### Choose Target
 Choose SSIS in Azure Data Factory from the Target Type drop-down. 
 
-<img src="https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png" :height="50%" width="50%">
+<img src="media/ChooseTarget.png" width="600">
 
 Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
 Note: This utihttps://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.pnglity only supports SQL authentication for Azure SSIS at the moment. 
