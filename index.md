@@ -24,11 +24,12 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 ## Sources & Targets
 
 It supports the following source and target types. 
-SSIS for SQL Server - SSIS catalog enabled in SQL Server. 
 
-SSIS for Azure Data Factory - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
+**SSIS for SQL Server** - SSIS catalog enabled in SQL Server. 
 
-File System - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
+**SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
+
+**File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
 
 We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory.
 
@@ -54,8 +55,11 @@ Note: This utihttps://github.com/kr55/ssiscataloger/blob/master/media/Choose%20T
 
 Choose the catalog folders from the listview you want to migrate. 
 
-Migrate Projects : Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
-Migrate Environments, project and package parameter configurations : Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
+Select Catalog options:
+
+**Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
+
+**Migrate Environments, project and package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
 
 ### Replace Parameter and Environment Values
 
