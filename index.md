@@ -51,7 +51,7 @@ Note: This utihttps://github.com/kr55/ssiscataloger/blob/master/media/Choose%20T
 
 ### Select SSISDB Catalog Folders to Migrate
 
-![](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png)
+<img src="media/ChooseCatalogFolders.png" width="600">
 
 Choose the catalog folders from the listview you want to migrate. 
 
