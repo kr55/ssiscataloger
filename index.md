@@ -59,13 +59,13 @@ Select Catalog options:
 
 **Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
-**Migrate Environments, project and package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
+**Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
 
 ### Replace Parameter and Environment Values
 
 If you wish to replace environemnt variable, project or package parameter values with new values, configure the replacement rules in this screen.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/Replace%20Values.png)
+<img src="media/ReplaceValues.png" width="600">
 
 As showen in the image above, all the connection string values will be updated from Data Source-Server1 to Data Source-Server2 & User ID=user1 to User ID=user2.
 
@@ -76,14 +76,13 @@ This is an optional step. If you dont want to replace anything, you can skip thi
 
 Review the deployment summary. And if everything looks ok, click Finish.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/migration%20summary.png)
-
+<img src="media/MigrationSummary.png" width="600">
 
 ### Monitor the migration
 
 Monitor the migration.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/Migration%20finish.png)
+<img src="media/MigrationFinish.png" width="600">
 
 If there is any warning or error during the migration, it will be shown against the respective folder in the status column of the grid.
 Note: Sensitive environment variables, project or package parameter values are encrypted in SSISDB with master key. Hence, such values cannot be copied in this migration. However, such variable/parameter names will be listed in status column tooltip and the status value will be shown as a warning.
