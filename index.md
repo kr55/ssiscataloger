@@ -51,7 +51,7 @@ Note: This utihttps://github.com/kr55/ssiscataloger/blob/master/media/Choose%20T
 
 ### Select SSISDB Catalog Folders to Migrate
 
-![](https://github.com/kr55/ssiscataloger/blob/master/media/Choose%20Target.png)
+<img src="media/ChooseCatalogFolders.png" width="600">
 
 Choose the catalog folders from the listview you want to migrate. 
 
@@ -59,13 +59,13 @@ Select Catalog options:
 
 **Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
-**Migrate Environments, project and package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
+**Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
 
 ### Replace Parameter and Environment Values
 
 If you wish to replace environemnt variable, project or package parameter values with new values, configure the replacement rules in this screen.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/Replace%20Values.png)
+<img src="media/ReplaceValues.png" width="600">
 
 As showen in the image above, all the connection string values will be updated from Data Source-Server1 to Data Source-Server2 & User ID=user1 to User ID=user2.
 
@@ -76,59 +76,16 @@ This is an optional step. If you dont want to replace anything, you can skip thi
 
 Review the deployment summary. And if everything looks ok, click Finish.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/migration%20summary.png)
-
+<img src="media/MigrationSummary.png" width="600">
 
 ### Monitor the migration
 
 Monitor the migration.
 
-![](https://github.com/kr55/SSISCatalogMigrator/blob/master/media/Migration%20finish.png)
+<img src="media/MigrationFinish.png" width="600">
 
 If there is any warning or error during the migration, it will be shown against the respective folder in the status column of the grid.
 Note: Sensitive environment variables, project or package parameter values are encrypted in SSISDB with master key. Hence, such values cannot be copied in this migration. However, such variable/parameter names will be listed in status column tooltip and the status value will be shown as a warning.
 You can also save migration reports in CSV format by clicking on Save Report.
 
 
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kr55/ssis-catalog-migrator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kr55/ssis-catalog-migrator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
