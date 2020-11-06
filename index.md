@@ -17,6 +17,11 @@ This quick utility will help you migrate your existing SSIS catalog in a few cli
 
 Download and follow the instructions from  [visualstudio marketplace](https://marketplace.visualstudio.com/items?itemName=KunalRathi.ssiscatalogmigrator). 
 
+Alternatively, if you have Visual Studio Data Tools 2017, you can download it from **Extensions and Updates** under **Tools** menu item.
+
+<img src="media/VSMarketPlaceDownload.png" width="500">
+
+
 # About the wizard
 
 This quick wizard once installed, can be launched from SQL Server Management Studio (SSMS) 2018 or SQL Server Data Tools (SSDT) 2017 for Visual Studio 2017. Alternatively, you can use it as a standalone tool if you don't wish you add it as a plugin. 
