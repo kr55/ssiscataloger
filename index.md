@@ -8,7 +8,7 @@ Environments (Typically used to store configurations of your SSIS projects). The
 
 **The need for this activity might arise when:**
 * you are migrating your SQL server to a new server. 
-* upgrading the SQL server to a new server on a separate machine.
+* upgrading the SQL server to a newer version on a different machine.
 * setting up a new SSIS environment from the existing setup, etc.
 
 This quick utility will help you migrate your existing SSIS catalog in a few clicks. 
@@ -16,6 +16,11 @@ This quick utility will help you migrate your existing SSIS catalog in a few cli
 # How to install
 
 Download and follow the instructions from  [visualstudio marketplace](https://marketplace.visualstudio.com/items?itemName=KunalRathi.ssiscatalogmigrator). 
+
+Alternatively, if you have Visual Studio Data Tools 2017, you can download it from **Extensions and Updates** under **Tools** menu item.
+
+<img src="media/VSMarketPlaceDownload.png" width="500">
+
 
 # About the wizard
 
