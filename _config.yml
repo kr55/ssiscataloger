@@ -1,9 +1,7 @@
 theme: jekyll-theme-dinky
 
-#Footer
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/kr55/'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/in/kr55/'
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: 'https://github.com/kr55/'
+  linkedin: 'https://www.linkedin.com/in/kr55/'
+
