@@ -2,6 +2,6 @@ theme: jekyll-theme-dinky
 
 # Includes an icon in the footer for each user name you enter
 footer-links:
-  github: 'https://github.com/kr55/'
-  linkedin: 'https://www.linkedin.com/in/kr55/'
+  github: kr55
+  linkedin:kr55
 
