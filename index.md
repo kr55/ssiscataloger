@@ -33,7 +33,10 @@ It supports the following source and target types.
 
 **File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don't have acess to source and target SQL server connection at the same time.
 
-We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory.
+
+# Demo
+
+We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory in just a few clicks.
 
 ### Choose Source 
 Choose SSIS in SQL Server from Source Type drop-down.
