@@ -49,7 +49,8 @@ Choose SSIS in Azure Data Factory from the Target Type drop-down.
 <img src="media/ChooseTarget.png" width="500">
 
 Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
-Note: This utility only supports SQL authentication for Azure SSIS at the moment. 
+
+**Note**: This utility only supports SQL authentication for Azure SSIS at the moment. 
 
 ### Select SSISDB Catalog Folders to Migrate
 
