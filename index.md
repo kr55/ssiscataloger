@@ -15,7 +15,7 @@ This quick utility will help you migrate your existing SSIS catalog in a few cli
 
 # How to install
 
-Download and follow the instructions from  [visualstudio marketplace](https://marketplace.visualstudio.com/items?itemName=KunalRathi.ssiscatalogmigrator) 
+Download and follow the instructions from  [visualstudio marketplace](https://marketplace.visualstudio.com/items?itemName=KunalRathi.ssiscatalogmigrator). 
 
 # About the wizard
 
