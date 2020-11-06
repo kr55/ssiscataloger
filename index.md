@@ -63,13 +63,14 @@ Select Catalog options:
 
 **Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server side default values set for some project or package parameters, those will also be migrated to target server.
 
-### Replace Parameter and Environment Values
+### Replace Environment variable and Parameter values
 
 If you wish to replace environemnt variable, project or package parameter values with new values, configure the replacement rules in this screen.
 
 <img src="media/ReplaceValues.png" width="500">
 
-As showen in the image above, all the connection string values will be updated from Data Source-Server1 to Data Source-Server2 & User ID=user1 to User ID=user2.
+As shown in the image above, all the environment variable and project and package parameter values with substring Data Source=server1 will be replaced with Data Source=server2, User ID=user1 with User ID=user2 and C:\ETL\Folder with D:\ETL\Folder.
+This is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in target environment.
 
 This is an optional step. If you dont want to replace anything, you can skip this step by clicking Next.
 
