@@ -93,10 +93,10 @@ Review the deployment summary. And if everything looks ok, click Finish.
 
 Monitor the migration.
 
-<img src="media/MigrationFinish.png" width="500">
+<img src="media/MigrationFinish.jpg" width="500">
 
 If there is any warning or error during the migration, it will be shown against the respective folder in the Result column of the grid.
 
-**Note"": Sensitive environment variables, project, or package parameter values are encrypted in SSISDB with the master key. Hence, such values cannot be copied in this migration. However, such variable/parameter names will be listed in Result column tooltip and the status value will be shown as a warning. You can also save migration reports in CSV format by clicking on Save Report.
+**Note**: Sensitive environment variables, project, or package parameter values are encrypted in SSISDB with the master key. Hence, such values cannot be copied in this migration. However, such variable/parameter names will be listed in Result column tooltip and the status value will be shown as a warning. You can also save migration reports in CSV format by clicking on Save Report.
 
 I would love to hear from you about your experience using this tool. Please feel free to share any sort of feedback that will help me make this more productive.
