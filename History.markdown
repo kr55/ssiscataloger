@@ -6,7 +6,7 @@ permalink: /Release Notes/
 
 ## v1,0
 
-### Minor Enhancements
+### Features
 
   * Can be installed in SQL Server Management Studio 2018 & Visual Studio 2017.
   * Options to choose Catalog sources and targets from SSIS in SQL Server, SSIS in ADF & File system.
