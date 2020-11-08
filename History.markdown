@@ -1,4 +1,8 @@
-## Release Notes
+---
+layout: page
+title: Release Notes
+permalink: /Release Notes/
+---
 
 ## v1,0
 
