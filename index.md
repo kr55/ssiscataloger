@@ -19,13 +19,10 @@ Environments (typically used to store configurations of your SSIS projects). The
 * setting up a new SSIS environment from the existing setup, etc.
 
 This quick utility will help you migrate your existing SSIS catalog in a few clicks. 
-
 # SSIS Catalog Migration Wizard
 
 This quick wizard once installed, can be launched from SQL Server Management Studio (SSMS) 2018 or SQL Server Data Tools (SSDT) 2017 for Visual Studio 2017. Alternatively, you can use it as a standalone tool if you don’t wish you add it as a plugin.
-
 <img src="media/Welcome.jpg" width="500">
-
 ## Sources & Targets
 
 It supports the following source and target types. 
@@ -35,30 +32,23 @@ It supports the following source and target types.
 **SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
 
 **File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don’t have acess to source and target SQL server connection at the same time.
-
 # Demo
 
 We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory in just a few clicks.
-
 ### Choose Source 
 Choose SSIS in SQL Server from Source Type drop-down.
-
 <img src="media/ChooseSource.jpg" width="500">
 
 Provide SQL Server instance name. 
 To perform operations on SSIS catalog, we have to use windows authentication. And user should have ssis_admin role.  
-
 ### Choose Target
 Choose SSIS in Azure Data Factory from the Target Type drop-down. 
-
 <img src="media/ChooseTarget.jpg" width="500">
 
 Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
 
 **Note**: This utility only supports SQL authentication for Azure SSIS at the moment. 
-
 ### Select SSISDB Catalog Folders to Migrate
-
 <img src="media/ChooseCatalogFolders.jpg" width="500">
 
 Choose the catalog folders from the listview you want to migrate. 
@@ -68,27 +58,18 @@ Select Catalog options:
 **Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
 **Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server-side default values set for some project or package parameters, those will also be migrated to the target server.
-
 ### Replace Environment variable and Parameter values
-
 If you wish to replace environment variable, project, or package parameter values with new values, configure the replacement rules in this screen.
 
 <img src="media/ReplaceValues.jpg" width="500">
 
 As shown in the image above, all the environment variable and project and package parameter values with substring Data Source=server1 will be replaced with Data Source=server2, User ID=user1 with User ID=user2, and C:\ETL\Folder with D:\ETL\Folder. This is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment.
-
 This is an optional step. If you dont want to replace anything, you can skip this step by clicking Next.
-
 ### Complete the Wizard
-
 Review the deployment summary. And if everything looks ok, click Finish.
-
 <img src="media/MigrationSummary.jpg" width="500">
-
 ### Monitor the migration
-
 Monitor the migration.
-
 <img src="media/MigrationFinish.jpg" width="500">
 
 If there is any warning or error during the migration, it will be shown against the respective folder in the Result column of the grid.
