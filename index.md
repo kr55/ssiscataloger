@@ -20,7 +20,6 @@ Environments (typically used to store configurations of your SSIS projects). The
 
 This quick utility will help you migrate your existing SSIS catalog in a few clicks. 
 
-
 # SSIS Catalog Migration Wizard
 
 This quick wizard once installed, can be launched from SQL Server Management Studio (SSMS) 2018 or SQL Server Data Tools (SSDT) 2017 for Visual Studio 2017. Alternatively, you can use it as a standalone tool if you don’t wish you add it as a plugin.
@@ -36,7 +35,6 @@ It supports the following source and target types.
 **SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
 
 **File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don’t have acess to source and target SQL server connection at the same time.
-
 
 # Demo
 
@@ -81,7 +79,6 @@ As shown in the image above, all the environment variable and project and packag
 
 This is an optional step. If you dont want to replace anything, you can skip this step by clicking Next.
 
- 
 ### Complete the Wizard
 
 Review the deployment summary. And if everything looks ok, click Finish.
