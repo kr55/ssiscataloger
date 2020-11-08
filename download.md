@@ -1,6 +1,6 @@
 ---
-layout: download
-title: How to install
+layout: page
+title: Download
 permalink: /download/
 ---
 
