@@ -9,7 +9,7 @@ Environments (typically used to store configurations of your SSIS projects). The
 
 **The need for this activity might arise when:**
 
-<img src="media/LogoThumnail.png" width="150">
+<img src="media/LogoThumnail.png" width="600">
 
 * you are migrating your SQL server to a new server. 
 * upgrading the SQL server to a newer version on a different machine.
@@ -57,7 +57,7 @@ Select Catalog options:
 **Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
 **Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server-side default values set for some project or package parameters, those will also be migrated to the target server.
-## Replace Environment variable and Parameter values
+## While you are on your way, would you like to replace your environment variable values?
 If you wish to replace environment variable, project, or package parameter values with new values, configure the replacement rules in this screen.
 
 <img src="media/ReplaceValues.jpg" width="500">
