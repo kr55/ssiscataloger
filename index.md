@@ -27,8 +27,11 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 
 ## Sources & Targets
 It supports the following source and target types. 
+
 **SSIS for SQL Server** - SSIS Catalog enabled in SQL Server. 
+
 **SSIS for Azure Data Factory** - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines. 
+
 **File System** - SSIS Catalog exported to the file system. This can be used as a staged migration when you don’t have acess to source and target SQL server connection at the same time.
 # Demo
 We'll see a quick demo on how to migrate SSIS Catalog from on-premise SQL Server to SSIS in Azure Data Factory in just a few clicks.
@@ -45,6 +48,7 @@ Choose SSIS in Azure Data Factory from the Target Type drop-down.
 <img src="media/ChooseTarget.jpg" width="500">
 
 Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
+
 **Note**: This utility only supports SQL authentication for Azure SSIS at the moment. 
 ### Select SSISDB Catalog Folders to Migrate
 Choose the catalog folders from the listview you want to migrate. 
@@ -52,7 +56,9 @@ Choose the catalog folders from the listview you want to migrate.
 <img src="media/ChooseCatalogFolders.jpg" width="500">
 
 Select Catalog options:
+
 **Migrate Projects** - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
+
 **Migrate Environments, Project and Package parameter configurations** - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server-side default values set for some project or package parameters, those will also be migrated to the target server.
 ### Replace Environment variable and Parameter values
 If you wish to replace environment variable, project, or package parameter values with new values, configure the replacement rules in this screen.
@@ -72,5 +78,7 @@ Monitor the migration.
 <img src="media/MigrationFinish.jpg" width="500">
 
 If there is any warning or error during the migration, it will be shown against the respective folder in the Result column of the grid.
+
 **Note**: Sensitive environment variables, project, or package parameter values are encrypted in SSISDB with the master key. Hence, such values cannot be copied in this migration. However, such variable/parameter names will be listed in Result column tooltip and the status value will be shown as a warning. You can also save migration reports in CSV format by clicking on Save Report.
+
 I would love to hear from you about your experience using this tool. Please feel free to share any sort of feedback that will help me make this more productive.
