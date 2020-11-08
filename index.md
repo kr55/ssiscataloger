@@ -4,7 +4,6 @@ title: About
 permalink: /
 ---
 
-# SSIS Catalog Migration Wizard
 From SQL Server 2012, Microsoft has introduced a new deployment model in SSIS called the project deployment model. This new model has great benefits in terms of managing SSIS project deployments, executions, and configurations. With every new version of SQL Server, SSIS Catalog is also getting upgraded with new features. In this article, I will describe how we can migrate our existing SSIS Integration Services Catalog from one SQL server to another. 
 
 SSIS Integration services catalog consists of the following artifacts: 
@@ -21,16 +20,8 @@ Environments (typically used to store configurations of your SSIS projects). The
 
 This quick utility will help you migrate your existing SSIS catalog in a few clicks. 
 
-# How to install
 
-Download and follow the instructions from  [visualstudio marketplace](https://marketplace.visualstudio.com/items?itemName=KunalRathi.ssiscatalogmigrator). 
-
-Alternatively, if you have Visual Studio Data Tools 2017, you can download it from **Extensions and Updates** under the **Tools** menu item.
-
-<img src="media/VSMarketPlaceDownload.png" width="500">
-
-
-# About the wizard
+# SSIS Catalog Migration Wizard
 
 This quick wizard once installed, can be launched from SQL Server Management Studio (SSMS) 2018 or SQL Server Data Tools (SSDT) 2017 for Visual Studio 2017. Alternatively, you can use it as a standalone tool if you don’t wish you add it as a plugin.
 
