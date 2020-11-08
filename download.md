@@ -8,4 +8,4 @@ Download and follow the instructions from  [Visual Studio Marketplace](https://m
 
 Alternatively, if you have Visual Studio Data Tools 2017, you can download it from **Extensions and Updates** under the **Tools** menu item.
 
-<img src="media/VSMarketPlaceDownload.png" width="500"> 
+<img src="../media/VSMarketPlaceDownload.png" width="500"> 
