@@ -7,6 +7,9 @@ SSIS Builds (.ispac files): Contains several SSIS packages with project and pack
 Environments (typically used to store configurations of your SSIS projects). These variables are used to configure the SSIS project and package parameters of SSIS projects.
 
 **The need for this activity might arise when:**
+
+<img src="media/LogoThumnail.png" width="150">
+
 * you are migrating your SQL server to a new server. 
 * upgrading the SQL server to a newer version on a different machine.
 * setting up a new SSIS environment from the existing setup, etc.
