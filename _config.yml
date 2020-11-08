@@ -2,15 +2,12 @@ title: SSISCataloger, the SSIS Catalog Migration Wizard
 author:
   name: Kunal Rathi
   email: kunalrathi55@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-SSIS Catalog Migration Wizard add-in helps you seamlessly migrate SSISDB Catalog objects from one server to another. It is an add-in for SSMS 2018 or SSDT 2017. 
+description: SSIS Catalog Migration Wizard add-in helps you seamlessly migrate SSISDB Catalog objects from one server to another. It is an add-in for SSMS 2018 or SSDT 2017. 
 show_excerpts: false # set to true to show excerpts on the homepage
-
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-
   # generate social links in footer
   social_links:
     twitter: rathikunal55
