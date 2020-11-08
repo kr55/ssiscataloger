@@ -7,7 +7,7 @@ social:
     - https://twitter.com/rathikunal55
     - https://www.linkedin.com/in/kr55
     
-theme: jekyll-theme-dinky
-
+# Build settings
+theme: minima
 
 
