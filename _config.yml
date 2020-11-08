@@ -1,3 +1,12 @@
+gems:
+  - jekyll-seo-tag
+  
+social:
+  name: Kunal Rathi
+  links:
+    - https://twitter.com/rathikunal55
+    - https://www.linkedin.com/in/kr55
+    
 theme: jekyll-theme-dinky
 
 
