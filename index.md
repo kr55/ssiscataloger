@@ -9,7 +9,7 @@ Environments (typically used to store configurations of your SSIS projects). The
 
 **The need for this activity might arise when:**
 
-<img src="media/LogoThumnail.png" width="600">
+<img src="media/LogoThumnail.png" width="150">
 
 * you are migrating your SQL server to a new server. 
 * upgrading the SQL server to a newer version on a different machine.
