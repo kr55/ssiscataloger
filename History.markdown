@@ -4,7 +4,7 @@ title: Release Notes
 permalink: /Release Notes/
 ---
 
-## v1,0
+## v1.0
 
 ### Features
 
