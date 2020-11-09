@@ -32,14 +32,18 @@ It supports the following source and target types:
 
 # Demo - Lets Migrate On Premise SSIS to Azure SSIS! 
 Launch the utility from your prefered location.
+
 **Choose Source** 
+
 Choose SSIS in SQL Server from Source Type drop-down.
 
 <img src="media/ChooseSource.jpg" width="500">
 
 Provide SQL Server instance name. 
 To perform operations on SSIS catalog, we have to use windows authentication. And user should have ssis_admin role.  
+
 **Choose Target**
+
 Choose SSIS in Azure Data Factory from the Target Type drop-down. 
 
 <img src="media/ChooseTarget.jpg" width="500">
@@ -47,7 +51,9 @@ Choose SSIS in Azure Data Factory from the Target Type drop-down.
 Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
 
 **Note**: This utility only supports SQL authentication for Azure SSIS at the moment. 
+
 **Select SSISDB Catalog Folders to Migrate**
+
 Choose the catalog folders from the listview you want to migrate. 
 
 <img src="media/ChooseCatalogFolders.jpg" width="500">
@@ -57,19 +63,24 @@ Select Catalog options:
 * Migrate Projects - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
 * Migrate Environments, Project and Package parameter configurations - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server-side default values set for some project or package parameters, those will also be migrated to the target server.
+
 **While you are on your way, would you like to replace your environment variable values?""
+
 If you wish to replace environment variable, project, or package parameter values with new values, configure the replacement rules in this screen.
 
 <img src="media/ReplaceValues.jpg" width="500">
 
 As shown in the image above, all the environment variable and project and package parameter values with substring Data Source=server1 will be replaced with Data Source=server2, User ID=user1 with User ID=user2, and C:\ETL\Folder with D:\ETL\Folder. This is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment.
 This is an optional step. If you dont want to replace anything, you can skip this step by clicking Next.
+
 **Complete the Wizard**
+
 Review the deployment summary. And if everything looks ok, click Finish.
 
 <img src="media/MigrationSummary.jpg" width="500">
 
 **Monitor the migration**
+
 Monitor the migration.
 
 <img src="media/MigrationFinish.jpg" width="500">
