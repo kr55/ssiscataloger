@@ -64,7 +64,7 @@ Select Catalog options:
 
 * Migrate Environments, Project and Package parameter configurations - Select the checkbox if you want to migrate catalog Environments. This will also apply environment references to SSIS projects and parameter mapping. If there are server-side default values set for some project or package parameters, those will also be migrated to the target server.
 
-**While you are on your way, would you like to replace your environment variable values?""
+**While you are on your way, would you like to replace your environment variable values?**
 
 If you wish to replace environment variable, project, or package parameter values with new values, configure the replacement rules in this screen.
 
@@ -80,8 +80,6 @@ Review the deployment summary. And if everything looks ok, click Finish.
 <img src="media/MigrationSummary.jpg" width="500">
 
 **Monitor the migration**
-
-Monitor the migration.
 
 <img src="media/MigrationFinish.jpg" width="500">
 
