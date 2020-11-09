@@ -5,7 +5,7 @@ From SQL Server 2012, Microsoft has introduced a new deployment model in SSIS ca
 SSIS Integration services catalog consists of the following artifacts:
 
 * SSIS Builds (.ispac files): Contains several SSIS packages with project and package parameters. 
-* Environments (typically used to store configurations of your SSIS projects). These variables are used to configure the SSIS project and package parameters of SSIS projects.
+* Environments: Typically used to store configurations of your SSIS projects. These variables are used to configure the SSIS project and package parameters of SSIS projects.
 
 The need for this activity might arise when:
 
