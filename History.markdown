@@ -3,7 +3,6 @@ layout: page
 title: Release Notes
 permalink: /Release Notes/
 ---
-
 ## v1.0
 
 ### Features
@@ -13,4 +12,6 @@ permalink: /Release Notes/
   * Choose specific Catalog options (Projects or Environments) to migrate.
   * Choose specific Catalog folders for migration.
   * Download summary report of the migration.
+  
+  
 
