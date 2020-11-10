@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 ---
 
-#Download
+# Download
 
 **If you have SQL Server Data Tools for Visual Studio 2017 (SSDT 2017) installed:**
 
