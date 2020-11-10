@@ -15,7 +15,7 @@ A good part of this option is that you automatically get an update installed in 
 
 As the VSIX 2017 installer does not support installation into a VS Shell edition, and generally because SSMS extensions are unsupported, You will have to manually install the extension.
 1. Download the latest vsix plugin from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscataloger). 
-2. Unzip the downloaded file SSIS.Catalog.Migration.Extension.vsix to a folder named 'SSIS Catalog Migrator' using [7zip](https://www.7-zip.org/download.html).
+2. Unzip the downloaded file SSIS.Cataloger.Extension.vsix to a folder named 'SSIS Catalog Migrator' using [7zip](https://www.7-zip.org/download.html).
 3. Copy this folder ('SSIS Cataloger') to *C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\* location. You would need administrative permissions to do this.
 4. Restart SSMS 2018 and you should see the tool under the Tools menu item.
 
