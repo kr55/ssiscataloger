@@ -30,7 +30,7 @@ It supports the following source and target types:
 
 * File System - SSIS Catalog exported to the file system. This can be used as a staged migration when you don’t have acess to source and target SQL server connection at the same time.
 
-# Demo - Lets Migrate On Premise SSIS to Azure SSIS! 
+# Demo - Let's Migrate On-premise SSIS to Azure SSIS! 
 Launch the utility from your prefered location.
 
 **Choose Source** 
