@@ -22,7 +22,7 @@ As the VSIX 2017 installer does not support installation into a VS Shell edition
 **If you don't wish to use this with either of the above tools, you can use it directly.**
 
 1. Download the latest vsix plugin from Visual Studio Marketplace.
-2. Unzip the downloaded file SSIS.Cataloger.Extension.vsix to a folder named 'SSIS Catalog Migrator' using 7zip.
+2. Unzip the downloaded file SSIS.Cataloger.Extension.vsix to a folder named 'SSIS Cataloger' using 7zip.
 3. Place this folder at a preferred location.
 4. Double click the file 'SSIS.Cataloger.exe'. You can also create a shortcut for this file and use it.
 
