@@ -68,7 +68,7 @@ If you wish to replace part of the environment variables, project, or package pa
 
 <img src="media/ReplaceValues.jpg" width="500">
 
-As shown in the image above, SSIS Catalog Migration Wizard replaces all occurrences of substring Data Source=server1 with Data Source=server2, User ID=user1 with User ID=user2, and C:\ETL\Folder with D:\ETL\Folder in all the environment variables and project and package parameter values.
+As shown in the image above, SSIS Catalog Migration Wizard replaces all occurrences of substring *Data Source=server1* with *Data Source=server2*, *User ID=user1* with *User ID=user2*, and *C:\ETL\Folder* with *D:\ETL\Folder* in all the environment variables and project and package parameter values.
 
 This is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment. However, this is an optional step. If you don't want to replace anything, you can skip this step and click Next.
 
