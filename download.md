@@ -8,7 +8,9 @@ permalink: /download/
 
 1. Download the extension from **Extensions and Updates** under the **Tools** menu item as shown in the image below..
 <img src="../media/VSMarketPlaceDownload.png" width="700"> 
+
 2. Restart SSDT 2017 and you should see the tool under the **Tools** menu item.
+
 A good part of this option is that you automatically get an update installed in SSDT whenever a newer version of the wizard is available in the marketplace. Isn’t that great!
 
 **If you have SQL Server Management Studio 2018 (SSMS 2018) installed:**
