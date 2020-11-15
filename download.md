@@ -19,6 +19,8 @@ As the VSIX 2017 installer does not support installation into a VS Shell edition
 3. Copy this folder ('SSIS Cataloger') to *C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions* location. You would need administrative permissions to do this.
 4. Restart SSMS 2018 and you should see the tool under the Tools menu item.
 
+<img src="../media/SSMS option.jpg" width="700"> 
+
 **If you don't wish to use this with either of the above tools, you can use it directly.**
 
 1. Download the latest vsix plugin from Visual Studio Marketplace.
