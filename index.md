@@ -9,8 +9,6 @@ The SSIS Integration Services Catalog consists of the following artifacts:
 
 The need for this activity might arise when:
 
-<img src="media/LogoThumnail.png" width="150">
-
 * you are migrating your SQL server to a new host OS.
 * upgrading the SQL server to a newer version on a different machine.
 * setting up a new SSIS environment from the existing setup, etc.
