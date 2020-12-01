@@ -3,7 +3,14 @@ layout: page
 title: Release Notes
 permalink: /Release Notes/
 ---
-## v1.0
+
+## v1.1 (12/01/2020)
+
+### Features (preview)
+
+  * Delete selected folders from the source Catalog. 
+
+## v1.0 (11/10/2020)
 
 ### Features
 

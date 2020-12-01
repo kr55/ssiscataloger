@@ -56,9 +56,11 @@ Choose the catalog folders from the listview that you want to migrate.
 
 At the bottom, choose the catalog options:
 
-* Migrate Projects - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
+* Migrate projects - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
 
-* Migrate Environments, Project and Package parameter configurations - Select the checkbox if you want to migrate catalog Environments. This will apply environment references to SSIS projects and environment variable to parameter mapping. It also includes project and package parameters with default values set in the source SSISDB.
+* Migrate environments, project and package parameter configurations. - Select the checkbox if you want to migrate catalog Environments. This will apply environment references to SSIS projects and environment variable to parameter mapping. It also includes project and package parameters with default values set in the source SSISDB.
+
+* Delete selected folders from the source Catalog. (Preview) - Select the checkbox if you want to delete selected Catalog folders from source server. 
 
 **While you are on your way, would you like to replace your environment variable values?**
 
