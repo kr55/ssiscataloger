@@ -1,4 +1,12 @@
 
+Migrate ssis catalog to new server quickly using SSIS Catalog Migration Wizard. 
+The need for this activity might arise when:
+
+* you want to migrate ssis to azure data factory
+* migrate ssisdb from one server to another
+* migrate ssis catalog from 2012 to 2016 (or any version of SQL Server)
+
+# Background
 
 From SQL Server 2012 onwards, Microsoft introduced a new deployment model in SSIS, called the project deployment model. This new model has many benefits in terms of managing SSIS project deployments, executions, and configurations. With every new version of SQL Server, the SSIS Catalog is also getting upgraded with new features. In this article, I will describe how we can migrate the SSIS Catalog from one SQL Server instance to another using the SSIS Catalog Migration Wizard.
 
@@ -7,11 +15,6 @@ The SSIS Integration Services Catalog consists of the following artifacts:
 * SSIS Builds (.ispac files) - Contains several SSIS packages with project and package parameters.
 * Environments - Stores configurations of SSIS projects. These variables are used to configure the SSIS project and package parameters of SSIS projects.
 
-The need for this activity might arise when:
-
-* you are migrating your SQL server to a new host OS.
-* upgrading the SQL server to a newer version on a different machine.
-* setting up a new SSIS environment from the existing setup, etc.
 
 This quick utility will help you migrate the SSIS catalog in a just few clicks.
 # SSIS Catalog Migration Wizard
