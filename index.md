@@ -1,10 +1,11 @@
 
 Migrate ssis catalog to new server quickly using SSIS Catalog Migration Wizard. 
-The need for this activity might arise when:
-
-* you want to migrate ssis to azure data factory
+Do you want to:
+* migrate ssis to azure data factory
 * migrate ssisdb from one server to another
-* migrate ssis catalog from 2012 to 2016 (or any version of SQL Server)
+* migrate ssis catalog from 2012 to 2016 (or any version of SQL Server) etc.
+
+Then you are at right place!
 
 # Background
 
