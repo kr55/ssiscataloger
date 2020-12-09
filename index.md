@@ -1,5 +1,6 @@
 
-Migrate ssis catalog to new server quickly using SSIS Catalog Migration Wizard. 
+Migrate SSIS catalog to new server quickly using SSIS Catalog Migration Wizard. 
+
 Do you want to:
 * migrate ssis to azure data factory
 * migrate ssisdb from one server to another
