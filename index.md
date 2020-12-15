@@ -91,7 +91,5 @@ Any warning or error during the migration gets available against the respective 
 
 Note - Sensitive environment variables, project, or package parameter values are encrypted in SSISDB with the master key. Hence, the wizard will not migrate such values. However, it will list such variable names in the Result column tooltip with column value as "Warning". You can also save migration reports in txt format by clicking on Report button.
 
-I hope this extension is helpful to you. If you wish to support my work, please 
-<a href="https://www.buymeacoffee.com/AzureOps" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buying me a Coffee" height="41" width="174"></a>.
-
+I hope this extension is helpful to you. If you wish to support my work, please <a href="https://www.buymeacoffee.com/azureops"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=azureops&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>.
 
