@@ -3,7 +3,7 @@ layout: page
 title: Release Notes
 permalink: /Release Notes/
 ---
-## v1.2 (17/01/2020)
+## v1.2 (12/17/2020)
 
 ### Bug fixes
 
