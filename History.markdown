@@ -3,10 +3,15 @@ layout: page
 title: Release Notes
 permalink: /Release Notes/
 ---
+## v1.2 (17/01/2020)
+
+### Bug fixes
+
+  * Fixed an issue in the Report button when the user clicks on the Cancel button in the File browser.
 
 ## v1.1 (12/01/2020)
 
-### Features (preview)
+### Features
 
   * Delete selected folders from the source Catalog. 
 
