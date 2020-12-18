@@ -17,6 +17,7 @@ The SSIS Integration Services Catalog consists of the following artifacts:
 * SSIS Builds (.ispac files) - Contains several SSIS packages with project and package parameters.
 * Environments - Stores configurations of SSIS projects. These variables are used to configure the SSIS project and package parameters of SSIS projects.
 
+{% include youtubePlayer.html id="a2qd3aUulso" %}
 
 This quick utility will help you migrate the SSIS catalog in a just few clicks.
 # SSIS Catalog Migration Wizard
