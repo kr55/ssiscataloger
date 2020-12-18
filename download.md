@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 ---
 
-{% include youtubePlayer.html id="a2qd3aUulso" %}
+{% include youtubePlayer.html id="IVpYrUijxxo" %}
 
 **If you have SQL Server Data Tools for Visual Studio 2017 (SSDT 2017) installed:**
 
