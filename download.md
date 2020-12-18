@@ -4,6 +4,8 @@ title: Download
 permalink: /download/
 ---
 
+{% include youtubePlayer.html id="a2qd3aUulso" %}
+
 **If you have SQL Server Data Tools for Visual Studio 2017 (SSDT 2017) installed:**
 
 1. Download the extension from **Extensions and Updates** under the **Tools** menu item as shown in the image below..
