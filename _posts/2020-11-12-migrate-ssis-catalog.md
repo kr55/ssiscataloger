@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Migrate SSIS catalog from one server to another using SSIS Catalog Migration Wizard"
-categories: tools
 ---
 
 
