@@ -28,7 +28,7 @@ This quick utility will help you migrate the SSIS catalog in a just few clicks.
 
 This quick wizard once installed, can be launched from SQL Server Management Studio (SSMS) 2018 or SQL Server Data Tools (SSDT) 2017 for Visual Studio 2017. Alternatively, you can use it as a standalone tool if you don’t wish you add it as a plugin.
 
-<img src="media/Welcome.jpg" width="500">
+<img src="../media/Welcome.jpg" width="500">
 
 The wizard supports the following source and target types.
 
