@@ -3,6 +3,13 @@ layout: page
 title: Release Notes
 permalink: /Release Notes/
 ---
+
+## v1.2.2 (12/31/2020)
+
+### Features
+
+  * Added support for Visual Studio 2019.
+
 ## v1.2 (12/17/2020)
 
 ### Bug fixes
