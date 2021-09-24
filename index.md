@@ -9,6 +9,8 @@ Do you want to:
 
 Then you are at right place!
 
+{% include youtubePlayer.html id="my4i9BbcWPU&t=64s" %}
+
 # Background
 
 From SQL Server 2012 onwards, Microsoft introduced a new deployment model in SSIS, called the project deployment model. This new model has many benefits in terms of managing SSIS project deployments, executions, and configurations. With every new version of SQL Server, the SSIS Catalog is also getting upgraded with new features. In this article, I will describe how we can migrate the SSIS Catalog from one SQL Server instance to another using the SSIS Catalog Migration Wizard.
