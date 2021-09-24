@@ -9,7 +9,7 @@ Do you want to:
 
 Then you are at right place!
 
-{% include youtubePlayer.html id="my4i9BbcWPU&t=64s" %}
+{% include youtubePlayer.html id="my4i9BbcWPU&t" %}
 
 # Background
 
