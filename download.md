@@ -4,7 +4,7 @@ title: How to Install
 permalink: /download/
 ---
 
-{% include youtubePlayer.html id="Dylw06FigY" %}
+{% include youtubePlayer.html id="-Dylw06FigY" %}
 
 
 **If you have SQL Server Data Tools for Visual Studio 2017 (SSDT 2017) installed:**
