@@ -104,7 +104,7 @@ This setting is applicable when you are exporting SSIS Catalog to the SCMW file.
 **Complete the Wizard**
 
 
-<img src="media/MigrationSummary.jpg" width="500">
+<img src="media/Review.PNG" width="500">
 
 ***Automation (Command-line utility)***
 
@@ -119,6 +119,6 @@ More information about the command-line utility parameters and usage examples is
 
 **Monitor the migration**
 
-<img src="media/MigrationFinish.jpg" width="500">
+<img src="media/Finish.PNG" width="500">
 
 Any warning or error during the migration gets available against the respective folder in the Result column tooltip of the grid as shown in the above image.SSIS Catalog Migration wizard can do a lot more things. In my next article, I will describe how to automate routine SSIS migrations using this tool.
