@@ -28,6 +28,7 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 
 <img src="media/Main.png" width="500">
 
+[!<img src="media/Download.png" width="20">](http://azureops.org/product/ssis-catalog-migration-wizard-pro/)
 
 The wizard supports the following source and target types.
 
