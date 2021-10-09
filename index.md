@@ -44,14 +44,14 @@ We’ll see a quick demo on how SSIS Catalog Migration Wizard migrates on-premis
 
 Choose SQL Server radio button. Provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use windows authentication. And the user should have the ssis_admin role.
 
-<img src="media/ChooseSource.jpg" width="500">
+<img src="media/ChooseSource.PNG" width="500">
 
 
 **Choose Target**
 
 Choose the Azure data factory radio button. Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
 
-<img src="media/ChooseTarget.jpg" width="500">
+<img src="media/ChooseTarget.PNG" width="500">
 
 Note - This utility only supports SQL authentication for Azure SQL Server connection.
 
