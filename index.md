@@ -6,6 +6,7 @@ Do you want to:
 * migrate ssisdb from one server to another
 * migrate ssis catalog from 2012 to 2016 (or any version of SQL Server).
 * migrate ssis catalog environment variables from DEV to UAT etc.
+* you want to automate routine SSIS catalog migrations.
 
 Then you are at right place!
 
@@ -33,65 +34,91 @@ The wizard supports the following source and target types.
 
 * SSIS for Azure Data Factory - This is used when you want to run SSIS packages in Azure using Azure data factory pipelines.
 
-* File System - SSIS Catalog exported to the file system. This can be used as a staged migration when you don’t have access to source and target SQL Server connections at the same time.
+* SCMW export - This is a special export format for SSIS Catalog items.
 
 # Demo - Let's Migrate On-premise SSIS to Azure SSIS! 
 
-We’ll see a quick demo on how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. Launch the wizard from your preferred location.
+We’ll see a quick demo on how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks.
 
 **Choose Source** 
 
-Choose SSIS in SQL Server from Source Type drop-down. Provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use windows authentication. And the user should have the ssis_admin role.
+Choose SQL Server radio button. Provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use windows authentication. And the user should have the ssis_admin role.
 
 <img src="media/ChooseSource.jpg" width="500">
 
 
 **Choose Target**
 
-Choose SSIS in Azure Data Factory from the Target Type drop-down. Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
+Choose the Azure data factory radio button. Provide Azure SQL Server hostname, admin SQL server authentication user name, and password.
 
 <img src="media/ChooseTarget.jpg" width="500">
 
+Note - This utility only supports SQL authentication for Azure SQL Server connection.
 
-Note - This utility only supports SQL authentication for Azure SSIS at the moment. 
+**Select SSISDB Catalog Items to Migrate**
 
-**Select SSISDB Catalog Folders to Migrate**
-
-Choose the catalog folders from the listview that you want to migrate.
+Choose the catalog items from the treeview.
 
 <img src="media/ChooseCatalogFolders.jpg" width="500">
 
-At the bottom, choose the catalog options:
+Compare source & target
 
-* Migrate projects - Select the checkbox if you want to migrate SSIS projects (.ispac) files from the selected list of folders.
+Compare source and target and choose to migrate only what has changed.
+For example, in the above image:
+* Green items are present in the source and not present in the target,
+* Red items mean source and target items are not the same.
+* Unmodified items are displayed in the original color and these objects are identical in the source and target
 
-* Migrate environments, project and package parameter configurations. - Select the checkbox if you want to migrate catalog Environments. This will apply environment references to SSIS projects and environment variable to parameter mapping. It also includes project and package parameters with default values set in the source SSISDB.
+***Migration Type***
 
-* Delete selected folders from the source Catalog. (Preview) - Select the checkbox if you want to delete selected Catalog folders from source server. 
+Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button if you wish to delete the source catalog after the migration is done. Default is ‘copy’.
 
-**While you are on your way, would you like to replace your environment variable values?**
+***Migrate explicit permissions***
 
-If you wish to replace part of the environment variables, project, or package parameter values with new values, configure the replacement rules on this screen.
+Catalog folders, projects, and environments have explicit permissions. If you want to migrate it to target, check the checkbox ‘Migrate explicit permissions' on this screen.
+
+**Customize folder mapping**
+
+Easily map source and target folders names. Wizard populates all selected folder names in Source and Target folder columns. Edit the value in the ‘Target Folder’ column if you wish to customize the folders.
 
 <img src="media/ReplaceValues.jpg" width="500">
 
-As shown in the image above, SSIS Catalog Migration Wizard replaces all occurrences of substring *Data Source=server1* with *Data Source=server2*, *User ID=user1* with *User ID=user2*, and *C:\ETL\Folder* with *D:\ETL\Folder* in all the environment variables and project and package parameter values.
+For instance, as shown in the above image, the wizard will copy the content of the source catalog folder Pqr to the target catalog folder Abc. This step is optional.
 
-This is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment. However, this is an optional step. If you don't want to replace anything, you can skip this step and click Next.
+**While you are on your way, would you like to replace your environment variable values?**
+
+Configure the key-value pairs that you would like to replace in the environment variable and parameter values. Suggest button populates all the data sources in the source catalog environment variables that you might like to replace in the target.
+
+<img src="media/ReplaceValues.jpg" width="500">
+
+Perhaps, this is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment. This configuration is optional.
+
+***Overwrite environment variable values***
+
+‘Overwrite environment variable values’ setting recreates environment variables & parameter default values in the target. Note here that you may lose target data in this case.
+
+***Export sensitive data***
+
+This setting is applicable when you are exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted. ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
 
 **Complete the Wizard**
 
-Review the deployment summary. And if everything looks ok, click Finish.
 
 <img src="media/MigrationSummary.jpg" width="500">
+
+***Automation (Command-line utility)***
+
+With the command-line utility, we can now automate routine migrations in a matter of few clicks. The migration script can run using any scheduler like SQL Server Agent job. Here, the script button at this step will generate a command-line script based on the choice made in previous steps.
+
+For example, in the current case, the command-line script will look like below.
+
+SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:"[{\"FolderName\":\"Azure test\",\"Projects\":[],\"Environments\":[\"env1\"]},{\"FolderName\":\"AzureDevOpsDeployment\",\"Projects\":[\"testUC\"],\"Environments\":[]},{\"FolderName\":\"Sales\",\"Projects\":[\"sales-stg2\"],\"Environments\":[]}]" /fm:"{\"Azure Test\":\"Azure Prod\"}" /fm:"{\"Pqr\":\"Abc\"}" /oev:true
+
+More information about the command-line utility parameters and usage examples is available here.Review the deployment summary. And if everything looks ok, click Finish.
+
 
 **Monitor the migration**
 
 <img src="media/MigrationFinish.jpg" width="500">
 
-Any warning or error during the migration gets available against the respective folder in the Result column tooltip of the grid as shown in the above image.
-
-Note - Sensitive environment variables, project, or package parameter values are encrypted in SSISDB with the master key. Hence, the wizard will not migrate such values. However, it will list such variable names in the Result column tooltip with column value as "Warning". You can also save migration reports in txt format by clicking on Report button.
-
-I hope this extension is helpful to you.  
-
+Any warning or error during the migration gets available against the respective folder in the Result column tooltip of the grid as shown in the above image.SSIS Catalog Migration wizard can do a lot more things. In my next article, I will describe how to automate routine SSIS migrations using this tool.
