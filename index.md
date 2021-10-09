@@ -114,7 +114,7 @@ With the command-line utility, we can now automate routine migrations in a matte
 For example, in the current case, the command-line script will look like below.
 
 
-    SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:"[{\"FolderName\":\"Azure test\",\"Projects\":[],\"Environments\":         [\"env1\"]},{\"FolderName\":\"AzureDevOpsDeployment\",\"Projects\":[\"testUC\"],\"Environments\":[]},{\"FolderName\":\"Sales\",\"Projects\":[\"sales-                         stg2\"],\"Environments\":[]}]" /fm:"{\"Azure Test\":\"Azure Prod\"}" /fm:"{\"Pqr\":\"Abc\"}" /oev:true
+    SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:”[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]” /fm:”{"Azure Test":"Azure Prod"}” /fm:”{"Pqr":"Abc"}” /oev:true
 
 
 
