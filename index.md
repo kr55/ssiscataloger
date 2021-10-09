@@ -28,6 +28,7 @@ This quick wizard once installed, can be launched from SQL Server Management Stu
 
 <img src="media/Main.png" width="500">
 
+
 The wizard supports the following source and target types.
 
 * SSIS for SQL Server - SSIS catalog enabled in SQL Server. 
@@ -112,7 +113,10 @@ With the command-line utility, we can now automate routine migrations in a matte
 
 For example, in the current case, the command-line script will look like below.
 
-SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:"[{\"FolderName\":\"Azure test\",\"Projects\":[],\"Environments\":[\"env1\"]},{\"FolderName\":\"AzureDevOpsDeployment\",\"Projects\":[\"testUC\"],\"Environments\":[]},{\"FolderName\":\"Sales\",\"Projects\":[\"sales-stg2\"],\"Environments\":[]}]" /fm:"{\"Azure Test\":\"Azure Prod\"}" /fm:"{\"Pqr\":\"Abc\"}" /oev:true
+
+    SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:"[{\"FolderName\":\"Azure test\",\"Projects\":[],\"Environments\":         [\"env1\"]},{\"FolderName\":\"AzureDevOpsDeployment\",\"Projects\":[\"testUC\"],\"Environments\":[]},{\"FolderName\":\"Sales\",\"Projects\":[\"sales-                         stg2\"],\"Environments\":[]}]" /fm:"{\"Azure Test\":\"Azure Prod\"}" /fm:"{\"Pqr\":\"Abc\"}" /oev:true
+
+
 
 More information about the command-line utility parameters and usage examples is available here.Review the deployment summary. And if everything looks ok, click Finish.
 
