@@ -59,7 +59,7 @@ Note - This utility only supports SQL authentication for Azure SQL Server connec
 
 Choose the catalog items from the treeview.
 
-<img src="media/ChooseCatalogFolders.jpg" width="500">
+<img src="media/ChooseItems.gif" width="500">
 
 Compare source & target
 
