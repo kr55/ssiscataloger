@@ -61,7 +61,7 @@ Choose the catalog items from the treeview.
 
 <img src="media/ChooseItems.gif" width="500">
 
-Compare source & target
+***Compare source & target***
 
 Compare source and target and choose to migrate only what has changed.
 For example, in the above image:
@@ -81,7 +81,7 @@ Catalog folders, projects, and environments have explicit permissions. If you wa
 
 Easily map source and target folders names. Wizard populates all selected folder names in Source and Target folder columns. Edit the value in the ‘Target Folder’ column if you wish to customize the folders.
 
-<img src="media/ReplaceValues.jpg" width="500">
+<img src="media/CustomizeFolders.PNG" width="500">
 
 For instance, as shown in the above image, the wizard will copy the content of the source catalog folder Pqr to the target catalog folder Abc. This step is optional.
 
@@ -89,7 +89,7 @@ For instance, as shown in the above image, the wizard will copy the content of t
 
 Configure the key-value pairs that you would like to replace in the environment variable and parameter values. Suggest button populates all the data sources in the source catalog environment variables that you might like to replace in the target.
 
-<img src="media/ReplaceValues.jpg" width="500">
+<img src="media/ReplaceVariables.gif" width="500">
 
 Perhaps, this is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment. This configuration is optional.
 
