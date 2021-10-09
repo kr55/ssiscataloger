@@ -81,7 +81,7 @@ Catalog folders, projects, and environments have explicit permissions. If you wa
 
 Easily map source and target folders names. Wizard populates all selected folder names in Source and Target folder columns. Edit the value in the ‘Target Folder’ column if you wish to customize the folders.
 
-<img src="media/CustomizeFolders.PNG" width="500">
+<img src="media/CustomizeFolders.png" width="500">
 
 For instance, as shown in the above image, the wizard will copy the content of the source catalog folder Pqr to the target catalog folder Abc. This step is optional.
 
