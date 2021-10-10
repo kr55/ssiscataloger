@@ -119,7 +119,7 @@ For example, in the current case, the command-line script will look like below.
 
 
 
-More information about the command-line utility parameters and usage examples is available here.Review the deployment summary. And if everything looks ok, click Finish.
+More information about the command-line utility parameters and usage examples is available [here](https://azureops.org/articles/ssis-catalog-migration-wizard-pro/#Automation).Review the deployment summary. And if everything looks ok, click Finish.
 
 
 **Monitor the migration**
