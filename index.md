@@ -6,7 +6,7 @@ Do you want to:
 * migrate ssisdb from one server to another
 * migrate ssis catalog from 2012 to 2016 (or any version of SQL Server).
 * migrate ssis catalog environment variables from DEV to UAT etc.
-* you want to automate routine SSIS catalog migrations.
+* automate routine SSIS catalog migrations.
 
 Then you are at right place!
 
