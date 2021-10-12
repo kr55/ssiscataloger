@@ -66,7 +66,6 @@ Choose the catalog items from the treeview.
 <img src="media/ChooseItems.gif" width="500">
 
 ***Compare source & target***
-
 Compare source and target and choose to migrate only what has changed.
 For example, in the above image:
 * Green items are present in the source and not present in the target,
@@ -97,11 +96,11 @@ Perhaps, this is useful when you are setting up a parallel environment for your 
 
 ***Overwrite environment variable values***
 The ‘Overwrite environment variable values’ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
+
 ***Export sensitive data***
 This setting is applicable when you are exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted. ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
 
 **Complete the Wizard**
-
 
 <img src="media/Review.png" width="500">
 
