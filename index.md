@@ -77,7 +77,6 @@ For example, in the above image:
 Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button if you wish to delete the source catalog after the migration is done. The default type is ‘copy’.
 
 ***Migrate explicit permissions***
-
 Catalog folders, projects, and environments have explicit permissions. If you want to migrate these permissions to the target, check the checkbox ‘Migrate explicit permissions' on this screen.
 
 **Customize folder mapping**
@@ -97,11 +96,8 @@ Configure the key-value pairs that you would like to replace in the environment 
 Perhaps, this is useful when you are setting up a parallel environment for your ETL workload and some configuration is different in the target environment. This configuration is optional.
 
 ***Overwrite environment variable values***
-
 The ‘Overwrite environment variable values’ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
-
 ***Export sensitive data***
-
 This setting is applicable when you are exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted. ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
 
 **Complete the Wizard**
@@ -110,14 +106,11 @@ This setting is applicable when you are exporting SSIS Catalog to the SCMW file.
 <img src="media/Review.png" width="500">
 
 ***Automation (Command-line utility)***
-
 With the command-line utility, we can now automate routine migrations in a matter of few clicks. The migration script can run using any scheduler like SQL Server Agent job. Here, the Script button at this step will generate a command-line script based on the choices made in previous steps.
 
 For example, in the current case, the command-line script will look like below.
 
     SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:”[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]” /fm:”{"Azure Test":"Azure Prod"}” /fm:”{"Pqr":"Abc"}” /oev:true
-
-
 
 More information about the command-line utility parameters and usage examples is available [here](https://azureops.org/articles/ssis-catalog-migration-wizard-pro/#Automation).Review the deployment summary. And if everything looks ok, click Finish.
 
