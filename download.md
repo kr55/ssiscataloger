@@ -9,4 +9,4 @@ permalink: /download/
 
 Once your download the product, unzip the file. Double-click on 'SSIS Cataloger Installer.exe' and follow the steps to complete the installation of SSIS Catalog Migration Wizard.
 
-{% include youtubePlayer.html id="-VcYksuavI54" %}
+{% include youtubePlayer.html id="VcYksuavI54&t=2s" %}
