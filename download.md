@@ -18,3 +18,5 @@ Launch SSIS Cataloger Installer.exe and enter the product key on the landing pag
 It should activate the product on the machine.
 
 ![Activate prooduct key](../media/ActivateLicense.png)
+
+<img src="../media/ActivateLicense.png" width="500">
