@@ -10,15 +10,15 @@ minima:
   date_format: "%b %-d, %Y"
   # generate social links in footer
   social_links:
-    twitter: rathikunal55
-    github:  kr55
-    reddit:  k53r
+    twitter: AzureOpsOrg
+    # github:  kr55
+    # reddit:  k53r
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: kr55
+    linkedin: company/azureops
     # pinterest: jekyll
     # youtube: jekyll
     youtube_channel: UC6Gk_qTyBNfAV8HRueVXAjg
