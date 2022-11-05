@@ -13,8 +13,8 @@ Once you download the product, unzip the file. Double-click on 'SSIS Cataloger I
 
 # Activate license key
 
-You would receive the license key via email. You can also find the license key at https://azureops.org/my-account/view-license-keys/. 
+You would receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
 Launch SSIS Cataloger Installer.exe and enter the product key on the landing page screen and click on the 'Activate Product' button. 
 It should activate the product on the machine.
 
-![Activate prooduct key](../media/ActivateLicense.png)
+![Activate prooduct key](../media/ActivateLicense.png){ width=60%}
