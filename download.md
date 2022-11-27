@@ -4,6 +4,7 @@ title: How to Install
 permalink: /download/
 ---
 
+In case you have not downloaded the softwre, you can get it from below.
 
 [<img src="../media/Download.PNG" width="150">](https://azureops.org/product/ssis-catalog-migration-wizard-pro/)
 
