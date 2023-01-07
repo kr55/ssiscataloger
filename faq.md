@@ -9,7 +9,7 @@ SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 20
 ### Does this tool migrates SSIS environment references?
 SSIS Catalog Migration Wizard migrates environment variable and project/package parameter server-side values from source to target SSISDB. You can also update their values during the migration using a proactive recommendation process.
 
-### How many seats can access the tool from a particular server.
+### How many seats are available in one license?
 All SSIS Catalog Migration Wizard licenses offer multi-seat access and grant access to all the users on the server or computer where it is installed.
 
 ### How many licenses do I need to buy for my SSISDB migration?
