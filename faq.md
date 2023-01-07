@@ -10,10 +10,10 @@ SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 20
 SSIS Catalog Migration Wizard migrates environment variable and project/package parameter server-side values from source to target SSISDB. You can also update their values during the migration using a proactive recommendation process.
 
 ### How many seats are available in one license?
-All SSIS Catalog Migration Wizard licenses offer multi-seat access and grant access to all the users on the server or computer where it is installed.
+All SSIS Catalog Migration Wizard license editions offer multi-seat access and grant access to all the users on the server or computer where it is installed.
 
 ### How many licenses do I need to buy for my SSISDB migration?
-You can migrate SSISDB between any SQL servers from the server where the tool is installed. So, if your source and target SSISDB can be connected from a single server, you would need only a single license.
+You can migrate SSISDB between any SQL Servers from the server where the tool is installed. So, if your source and target SSISDB can be connected from a single server, you would need only a single license.
 
 ### We are an educational institute or non-profit organization. Can we get any offer or discount on the license?
 We offer exclusive discounts to educational institutes and non-profit organizations. To check the offer, write an email to support@azureops.org from your official email address. The offer will be tagged to the official email address and can only be availed when using the email as the billing address.
