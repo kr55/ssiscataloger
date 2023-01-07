@@ -6,13 +6,10 @@ permalink: /faq/
 Below are some FAQs about SSIS Catalog Migration Wizard.
 ### What all source and target SQL Servers are supported for migration of SSISDB.
 SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 2012, 2014, 2016, 2017, 2019, 2022, ADF SSIS IR, and Azure SQL MI. It is recommended to only migrate SSIS catalog from lower to higher versions of the SQL Server as features in SSIS may need to be backward compatible. 
-
 ### Does this tool migrates SSIS environment references?
 SSIS Catalog Migration Wizard migrates environment variable and project/package parameter server-side values from source to target SSISDB. You can also update their values during the migration using a proactive recommendation process.
-
 ### How many seats can access the tool from a particular server.
 All SSIS Catalog Migration Wizard licenses offer multi-seat access and grant access to all the users on the server or computer where it is installed.
-
 ### How many licenses do I need to buy for my SSISDB migration?
 You can migrate SSISDB between any SQL servers from where the tool is installed. So, if your source and target SSISDB can be connected from a single server, you would need only a single license.
 
