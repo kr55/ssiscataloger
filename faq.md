@@ -23,6 +23,9 @@ We offer exclusive discounts to educational institutes and non-profit organizati
 We offer discounts to our customers planning to acquire more than two licenses simultaneously. To check the latest offer, write an email to support@azureops.org
 with your requirements. The offer code will be delivered to you based on your purchase plan.
 
+### Is there a limited feature free trial available?
+SSIS Catalog Migration Wizard has a limited feature trial version. This version can migrate the first three projects from source to target SSISDB without environment variable configurations. If you want to try this before purchasing the full version, email support@azureops.org or chat with our support from the product page.
+
 ### Does SSIS Catalog Migration Requires an internet connection to work?
 SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the internet to work. The Installer of the tool interacts with our license server only once.
 
