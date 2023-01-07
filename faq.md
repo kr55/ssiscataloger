@@ -19,6 +19,10 @@ You can migrate SSISDB between any SQL servers from where the tool is installed.
 ### We are an educational institute or non-profit organization. Can we get any offer or discount on the license?
 We offer exclusive discounts to educational institutes and non-profit organizations. To check the offer, write an email to support@azureops.org from your official email address. The offer will be tagged to the official email address and can only be availed when using the email as the billing address.
 
+### I am planning to purchase multiple licenses at the same time. Can I get a discount?
+We offer discounts to our customers planning to acquire more than two licenses simultaneously. To check the latest offer, write an email to support@azureops.org
+with your requirements. The offer code will be delivered to you based on your purchase plan.
+
 ### Does SSIS Catalog Migration Requires an internet connection to work?
 SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the internet to work. The Installer of the tool interacts with our license server only once.
 
