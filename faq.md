@@ -6,10 +6,13 @@ permalink: /faq/
 Below are some FAQs about SSIS Catalog Migration Wizard.
 ### What all source and target SQL Servers are supported for migration of SSISDB.
 SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 2012, 2014, 2016, 2017, 2019, 2022, ADF SSIS IR, and Azure SQL MI. It is recommended to only migrate SSIS catalog from lower to higher versions of the SQL Server as features in SSIS may need to be backward compatible. 
+
 ### Does this tool migrates SSIS environment references?
 SSIS Catalog Migration Wizard migrates environment variable and project/package parameter server-side values from source to target SSISDB. You can also update their values during the migration using a proactive recommendation process.
+
 ### How many seats can access the tool from a particular server.
 All SSIS Catalog Migration Wizard licenses offer multi-seat access and grant access to all the users on the server or computer where it is installed.
+
 ### How many licenses do I need to buy for my SSISDB migration?
 You can migrate SSISDB between any SQL servers from where the tool is installed. So, if your source and target SSISDB can be connected from a single server, you would need only a single license.
 
@@ -35,6 +38,9 @@ You will receive an email with a download link to the product and an activation 
 ### I am facing issues with the migration; how can I get help?
 AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard users. You can contact a support agent from the product page live chat or email support@azureops.org with the problem statement.
 
+### What payment options are available?
+We currently only accept payment via PayPal. If you do not have a PayPal account, PayPal generally offers to use a credit card without creating an account. However, this differs based on your country of origin. Check out PayPal [privacy policy](https://azureops.org/privacy-policy/). Reach out to our support in case of any payment issues.
+ 
 ### Does this tool comes with a refund policy?
 SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another in just a few clicks. If it does not work for you and you wish to get the refund of your purchase, you can claim it within three days of the purchase. Check out our [refund policy (https://azureops.org/refund_returns/) for more details.
 
