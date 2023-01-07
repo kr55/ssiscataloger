@@ -41,5 +41,5 @@ AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard 
 We currently only accept payment via PayPal. If you do not have a PayPal account, PayPal generally offers to use a credit card without creating an account. However, this differs based on your country of origin. Check out PayPal [privacy policy](https://azureops.org/privacy-policy/). Reach out to our support in case of any payment issues.
  
 ### Does this tool comes with a refund policy?
-SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another in just a few clicks. If it does not work for you and you wish to get the refund of your purchase, you can claim it within three days of the purchase. Check out our [refund policy (https://azureops.org/refund_returns/) for more details.
+SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another in just a few clicks. If it does not work for you and you wish to get the refund of your purchase, you can claim it within three days of the purchase. Check out our [refund policy](https://azureops.org/refund_returns/) for more details.
 
