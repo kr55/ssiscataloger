@@ -38,3 +38,6 @@ You will receive an email with a download link to the product and an activation 
 ### I am facing issues with the migration; how can I get help?
 AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard users. You can contact a support agent from the product page live chat or email support@azureops.org with the problem statement.
 
+### Does this tool comes with a refund policy?
+SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another in just a few clicks. If it does not work for you and you wish to get the refund of your purchase, you can claim it within three days of the purchase. Check out our [refund policy (https://azureops.org/refund_returns/) for more details.
+
