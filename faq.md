@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 permalink: /faq/
 ---
-### What all source and target SQL Servers are supported for migration of SSISDB.
+**What all source and target SQL Servers are supported for migration of SSISDB.**
 SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 2012, 2014, 2016, 2017, 2019, 2022, ADF SSIS IR, and Azure SQL MI. It is recommended to only migrate SSIS catalog from lower to higher versions of the SQL Server as features in SSIS may not be backward SQL server version compatible. 
 
 ### Does this tool migrates SSIS environment references?
