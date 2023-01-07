@@ -4,7 +4,7 @@ title: FAQ
 permalink: /faq/
 ---
 
-## Does SSIS Catalog Migration Requires an internet connection to work?
+### Does SSIS Catalog Migration Requires an internet connection to work?
 SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the internet to work. The Installer of the tool interacts with our license server only once.
 
 ### How many seats can access the tool from a particular server.
