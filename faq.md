@@ -40,6 +40,10 @@ SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the
 
 SSIS Catalog Migration Wizard offers .scmw file (an export format for SSISDB items). You can achieve SSISDB migrations across different domains. Export the source SSISDB in .scmw file using SSIS Catalog Migration Wizard. Copy this file to the target server or computer where you have access to the target SQL Server (SSISDB). Import the scmw file to target SSISDB using SSIS Catalog Migration Wizard. Please note that you need to install SSIS Catalog Migration Wizard in source and target network machines.
 
+**Can I migrate SSIS Catalog objects on the same server but in different folders?**
+
+You can select the same source and target server on the screens and choose different folders. 
+
 **What has been included in the software package?**
 
 You will receive an email with a download link to the product and an activation key. Once you download the zip file after the purchase, you will get an installer to install and activate the software, installation guide, and product documentation file. 
