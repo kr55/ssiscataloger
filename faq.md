@@ -38,7 +38,7 @@ SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the
 
 **My source and target SSISDB are in different network/domain, and they do not have a direct connection. Will SSIS Catalog Migration Wizard work in this case?**
 
-SSIS Catalog Migration Wizard offers .scmw file (an export format for SSISDB items). You can achieve SSISDB migrations across different domains. Export the source SSISDB in .scmw file using SSIS Catalog Migration Wizard. Copy this file to the target server or computer where you have access to the target SQL Server (SSISDB). Import the scmw file to target SSISDB using SSIS Catalog Migration Wizard. Please note that you need to install SSIS Catalog Migration Wizard in source and target network machines.
+SSIS Catalog Migration Wizard offers .scmw file (an export format for SSISDB items). You can achieve SSISDB migrations across different domains. Export the source SSISDB in .scmw file using SSIS Catalog Migration Wizard. Copy this file to the target server or computer where you have access to the target SQL Server (SSISDB). Import the scmw file to target SSISDB using SSIS Catalog Migration Wizard. Please note that you need to install SSIS Catalog Migration Wizard in source and target network machines. Learn more about it [here](https://azureops.org/articles/export-and-import-ssisdb/).
 
 **How can I ensure that my source and target servers can be connected from the wizard?**
 
