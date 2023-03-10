@@ -88,7 +88,7 @@ For instance, as shown in the above image, the wizard will copy the content of t
 
 **While you are on your way, would you like to replace your environment variable values?**
 
-Configure the key-value pairs that you would like to replace in the environment variable and parameter values. The Suggest button populates all the data sources in the source catalog environment variables that you might like to replace in the target.
+Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope. Click on the Ref column to view the affected environment variables and parameters shown in the image below.
 
 <img src="media/ReplaceVariables.gif" width="500">
 
