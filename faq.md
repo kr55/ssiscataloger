@@ -50,7 +50,7 @@ You can select the same source and target server on the screens and choose diffe
 
 **Is this tool capable of migrating .NET script tasks?**
 
-SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult ssupport at support@azureops.org for a limited feature free trial to validate if it works for you.
+SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult support at support@azureops.org for a limited feature free trial to validate if it works for you.
 
 **What has been included in the software package?**
 
