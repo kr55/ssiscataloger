@@ -24,7 +24,7 @@ The SSIS Integration Services Catalog consists of the following artifacts:
 This quick utility will help you migrate the SSIS catalog in just a few clicks.
 # SSIS Catalog Migration Wizard
 
-Once installed, you can launch the SSIS Catalog Migration Wizard from SQL Server Management Studio (SSMS 18, 19), Visual Studio 2017, Visual Studio 2019 or Visual Studio 2022. Alternatively, you can use it as a standalone tool if you don't have either. The welcome screen for the wizard is shown below:
+Once installed, you can launch the SSIS Catalog Migration Wizard from SQL Server Management Studio (SSMS 18, 19), Visual Studio 2017, Visual Studio 2019 or Visual Studio 2022. Alternatively, you can use it as a standalone tool. The welcome screen for the wizard is shown below:
 
 <img src="media/Main.png" width="500">
 
