@@ -3,11 +3,11 @@ layout: page
 title: How to Install
 permalink: /download/
 ---
-SSIS Catalog Migration Wizard is a commercial product. If you wish to download it, you can get it from the below link.
+SSIS Catalog Migration Wizard is a licensed product. If you wish to purchase a license, you can get it from the below link.
 
 [<img src="../media/Download.PNG" width="150">](https://azureops.org/product/ssis-catalog-migration-wizard-pro/)
 
-You will receive a download load in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
+You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
 
 Once you download the product, unzip the downloaded file. Double-click 'SSIS Cataloger Installer.exe' and follow the steps to install the SSIS Catalog Migration Wizard.
 
