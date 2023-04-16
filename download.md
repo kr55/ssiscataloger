@@ -20,3 +20,9 @@ Launch SSIS Cataloger Installer.exe and enter the product key on the landing pag
 It should activate the product on the machine.
 
 <img src="../media/ActivateLicense.png" width="500">
+
+# Deactivate license key (Danger)
+
+If you want to deactivate the product key, you can launch SSIS Cataloger Installer.exe and click the Deactivate Product button. This action is irreversible, and you cannot reactivate the product with the same product key.
+
+<img src="../media/DeactivateLicense.png" width="500">
