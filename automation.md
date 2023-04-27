@@ -53,9 +53,12 @@ Migrate specific SSIS catalog artifacts from one SQL server instance to another 
 Inspect the SSIS catalog for environment configuration issues.
 
     "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:LAPTOP-R9A0KU50 /opr:inspect
+    
+<img src="commandline execution of inspect command.gif" width="500">
 
 
 ## Exit codes
 
-0 = Success
+0 = Success 
+
 -1 = Failure
