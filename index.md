@@ -104,6 +104,7 @@ This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file
 
 <img src="media/Review.png" width="500">
 
+Review the deployment summary. And if everything looks ok, click Finish.
 
 **Monitor the migration**
 
