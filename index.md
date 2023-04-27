@@ -104,15 +104,6 @@ This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file
 
 <img src="media/Review.png" width="500">
 
-***Automation (Command-line utility)***
-With the command-line utility, we can automate routine migrations in a few clicks. The migration script can run using any scheduler like SQL Server Agent job. Here, the Script button at this step will generate a command-line script based on the choices made in previous actions.
-
-For example, the command-line script will look like the below in the current case.
-
-    SSIS.Cataloger.Pro.exe /st:0 /ssn:SQLServerInstance /tt:1 /tsn:azuresql.database.windows.net /items:”[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]” /fm:”{"Azure Test":"Azure Prod"}” /fm:”{"Pqr":"Abc"}” /oev:true
-
-More information about the command-line utility parameters and usage examples is available [here](https://azureops.org/articles/ssis-catalog-migration-wizard-pro/#Automation).Review the deployment summary. And if everything looks ok, click Finish.
-
 
 **Monitor the migration**
 
