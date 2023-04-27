@@ -54,7 +54,7 @@ Inspect the SSIS catalog for environment configuration issues.
 
     "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:LAPTOP-R9A0KU50 /opr:inspect
     
-<img src="../CommandlineExecutionOfInspectCommand.gif" width="500">
+<img src="../CommandlineExecutionOfInspectCommand.gif" width="800">
 
 
 ## Exit codes
