@@ -5,8 +5,7 @@ permalink: /download/
 ---
 SSIS Catalog Migration Wizard is a licensed product. If you wish to purchase a license, you can get it from the below link.
 
-Download
-{% include button.html url="https://azureops.org/product/ssis-catalog-migration-wizard-pro/" %}
+[<img src="../media/Download.PNG" width="150">](https://azureops.org/product/ssis-catalog-migration-wizard-pro/)
 
 You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
 
