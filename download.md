@@ -1,6 +1,6 @@
 ---
 id: getting-started
-layout: page
+sidebar_label: How to Install
 title: How to Install
 permalink: /download/
 ---
