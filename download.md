@@ -1,4 +1,5 @@
 ---
+id: getting-started
 layout: page
 title: How to Install
 permalink: /download/
