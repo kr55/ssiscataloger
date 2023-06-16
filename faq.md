@@ -13,7 +13,7 @@ SSIS Catalog Migration Wizard migrates environment variables and project/package
 
 **How many seats are available in one license?**
 
-All SSIS Catalog Migration Wizard license editions offer multi-seat access and grant access to all the users on the server or computer where it is installed.
+All SSIS Catalog Migration Wizard license editions offer multi-seat access per server and grant access to all the users on the server or computer where it is installed.
 
 **How many licenses do I need to buy for my SSISDB migration?**
 
