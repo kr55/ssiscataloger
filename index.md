@@ -72,6 +72,9 @@ For example, in the above image:
 * Red items mean source and target items are not the same.
 * Unmodified items are displayed in the original color, and these objects are identical in the source and target
 
+**Migrate only configuration**
+You can use this option to migrate only the project references and parameter values. Simply select the checkbox to migrate only the configuration part without the project code (.ispac file). Keep in mind that if the source project is not present in the target, both the project and its configuration will be migrated.
+  
 ***Migration Type***
 Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button to delete the source catalog after the migration. The default type is ‘copy’.
 
