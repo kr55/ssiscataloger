@@ -34,7 +34,7 @@ SSIS Catalog Migration Wizard has a limited feature trial version. The LFT versi
 
 **Does SSIS Catalog Migration Requires an internet connection to work?**
 
-SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the internet to work. The Installer of the tool interacts with our license server only once.
+SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the Internet to work. The Installer of the tool interacts with our license server only once.
 
 **My source and target SSISDB are in different networks/domains and do not have a direct connection. Will SSIS Catalog Migration Wizard work in this case?**
 
@@ -47,6 +47,10 @@ SSIS Catalog Migration Wizard uses native SQL connection API to connect to SQL S
 **Can I migrate SSIS Catalog objects on the same server but in different folders?**
 
 You can select the same source and target server on the screens and choose different folders. 
+
+**Can I migrate the SSIS project configuration to the new SSISDB without migrating the project?**
+
+It is possible to migrate SSIS project parameter values and environment configuration without migrating the project itself by using the 'Migrate only configuration' setting. However, if the target does not already have the project, the wizard will also migrate the project definition.
 
 **Is this tool capable of migrating .NET script tasks?**
 
