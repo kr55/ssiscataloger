@@ -12,7 +12,7 @@ Note: Restoring an existing SSISDB on the target SQL Server may result
 in unexpected errors during or after the migrations.
 2. You can inspect your SSIS Catalog to ensure consistency in the source 
 SSISDB. The inspection result will provide details about possible 
-errors or warnings. It is advisable to fix them before you run the 
+errors or warnings. It would be best to fix them before you run the 
 migration. Follow this [tutorial](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) to know more.
 3. Make sure that the user running the wizard has the ssis_admin role on both 
 source and target SSISDB.
