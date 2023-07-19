@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: page
 title: Demo
-
+permalink: /demo/
 ---
 ## Migrate SSISDB from one SQL Server to another.
 {% include youtubePlayer.html id="t2h6xNVFQkc" %}
