@@ -14,5 +14,5 @@ permalink: /demo/
 {% include youtubePlayer.html id="mDVedNWaNXQ" %}
 
 ## Copy SSISDB objects on the same server but in different folders.
-{% include youtubePlayer.html id="VLBkxjidZ5g&t=8s" %}
+{% include youtubePlayer.html id="VLBkxjidZ5g&t=14s" %}
 
