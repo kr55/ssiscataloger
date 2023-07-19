@@ -16,3 +16,5 @@ permalink: /demo/
 ## Copy SSISDB objects on the same server but in different folders.
 {% include youtubePlayer.html id="VLBkxjidZ5g" %}
 
+## Automate SSIS migrations.
+{% include youtubePlayer.html id="uQ0oc8mEuUs" %}
