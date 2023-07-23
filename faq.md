@@ -3,13 +3,7 @@ layout: page
 title: Frequently Asked Questions
 permalink: /faq/
 ---
-**What all source and target SQL Servers are supported for migration of SSISDB.**
-
-SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 2012, 2014, 2016, 2017, 2019, 2022, ADF SSIS IR, and Azure SQL MI. It is recommended to only migrate the SSIS catalog from lower to higher versions of the SQL Server as features in SSIS may not be backward SQL server version compatible. 
-
-**Does this tool migrates SSIS environment references?**
-
-SSIS Catalog Migration Wizard migrates environment variables and project/package parameter server-side values from source to target SSISDB. Using a proactive recommendation process, you can also update their values during the migration.
+## Licensing 
 
 **How many seats are available in one license?**
 
@@ -28,13 +22,19 @@ We offer exclusive discounts to educational institutes and non-profit organizati
 We offer discounts to our customers planning to acquire more than two licenses simultaneously. To check the latest offer, email support@azureops.org
 with your requirements. The offer code will be delivered to you based on your purchase plan.
 
-**Is there a limited feature free trial available?**
+## Technical 
 
-SSIS Catalog Migration Wizard has a limited feature trial version. The LFT version can migrate the first three SSIS projects (.ispac files) from the source to target SSISDB without environment variable configurations. If you want to try this before purchasing the full version, email support@azureops.org or chat with our support from the product page.
+**What all source and target SQL Servers are supported for migration of SSISDB.**
 
-**Does SSIS Catalog Migration Requires an internet connection to work?**
+SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 2012, 2014, 2016, 2017, 2019, 2022, ADF SSIS IR, and Azure SQL MI. It is recommended to only migrate the SSIS catalog from lower to higher versions of the SQL Server as features in SSIS may not be backward SQL server version compatible. 
 
-SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the Internet to work. The Installer of the tool interacts with our license server only once.
+**Does this tool migrates SSIS environment references?**
+
+SSIS Catalog Migration Wizard migrates environment variables and project/package parameter server-side values from source to target SSISDB. Using a proactive recommendation process, you can also update their values during the migration.
+
+**Does SSIS Catalog Migration requires an internet connection to work?**
+
+SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the Internet to work. The Installer of the tool interacts with our license server only once over the internet.
 
 **My source and target SSISDB are in different networks/domains and do not have a direct connection. Will SSIS Catalog Migration Wizard work in this case?**
 
@@ -46,7 +46,7 @@ SSIS Catalog Migration Wizard uses native SQL connection API to connect to SQL S
 
 **I do not have the SSISDB master key. Can I  still migrate my SSISDB to target SQL Server SSISDB?**
 
-Absolutely, you do not need to provide master key of source SSISDB to migrate your SSISDB to the target SQL Server using SSIS Catalog Migration Wizard.
+Absolutely, you do not need to provide the master key of source SSISDB to migrate your SSISDB to the target SQL Server using SSIS Catalog Migration Wizard.
 
 **Can I migrate SSIS Catalog objects on the same server but in different folders?**
 
@@ -59,6 +59,8 @@ It is possible to migrate SSIS project parameter values and environment configur
 **Is this tool capable of migrating .NET script tasks?**
 
 SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult support at support@azureops.org for a limited feature free trial to validate if it works for you.
+
+## Software package and policies
 
 **What has been included in the software package?**
 
@@ -75,4 +77,8 @@ We currently only accept payment via PayPal. If you do not have a PayPal account
 **Does this tool comes with a refund policy?**
 
 SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another in just a few clicks. If it does not work for you and you wish to get a refund, you can claim it within three days of the purchase. Check out our [refund policy](https://azureops.org/refund_returns/) for more details.
+
+**Is there a limited feature free trial available?**
+
+SSIS Catalog Migration Wizard has a limited feature trial version. The LFT version can migrate the first three SSIS projects (.ispac files) from the source to target SSISDB without environment variable configurations. If you want to try this before purchasing the full version, email support@azureops.org or chat with our support from the product page.
 
