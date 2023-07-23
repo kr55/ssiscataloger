@@ -44,13 +44,17 @@ SSIS Catalog Migration Wizard offers a .scmw file (an export format for SSISDB i
 
 SSIS Catalog Migration Wizard uses native SQL connection API to connect to SQL Servers. If you can connect to source and target SQL servers using other client tools like SQL Server Management Studio, the connections should also work from the wizard. You can also try the connections by downloading the SSIS Catalog Migration Wizard from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscatalogerpro&ssr=false#overview).
 
+**I do not have the SSISDB master key. Can I  still migrate my SSISDB to target SQL Server SSISDB?**
+
+Absolutely, you do not need to provide master key of source SSISDB to migrate your SSISDB to the target SQL Server using SSIS Catalog Migration Wizard.
+
 **Can I migrate SSIS Catalog objects on the same server but in different folders?**
 
 You can select the same source and target server on the screens and choose different folders. 
 
 **Can I migrate the SSIS project configuration to the new SSISDB without migrating the project?**
 
-It is possible to migrate SSIS project parameter values and environment configuration without migrating the project itself by using the 'Migrate only configuration' setting. However, if the target does not already have the project, the wizard will also migrate the project definition.
+It is possible to migrate SSIS project parameter values and environment configuration without migrating the project itself by using the 'Migrate only configuration' setting. However, the wizard will also migrate the project definition if the target does not already have the project.
 
 **Is this tool capable of migrating .NET script tasks?**
 
