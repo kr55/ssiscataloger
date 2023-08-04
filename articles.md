@@ -2,6 +2,7 @@
 layout: page
 title: Articles
 permalink: /articles/
+---
 
 ### Migrate SSISDB from one SQL Server to another in just a few clicks.
 https://azureops.org/articles/migrate-ssisdb-to-a-new-server/
