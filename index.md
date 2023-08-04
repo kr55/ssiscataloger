@@ -91,7 +91,7 @@ For instance, as shown in the above image, the wizard will copy the content of t
 
 **Would you like to replace your environment variable values while you are on your way?**
 
-Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope. Click on the Ref column to view the affected environment variables and parameters as shwown in the image below.
+Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope. Click on the Ref column to view the affected environment variables and parameters as shown in the image below.
 
 <img src="media/ReplaceVariables.gif" width="500">
 
