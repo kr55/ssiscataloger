@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Release notes
+title: Releases
 permalink: /releases/
 ---
 ### 2.7.1 Current (07/30/2023)
