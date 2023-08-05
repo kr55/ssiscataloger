@@ -54,3 +54,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-default-layout
+ - jekyll-target-blank
