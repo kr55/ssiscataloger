@@ -5,9 +5,9 @@ permalink: /faq/
 ---
 ## Licensing 
 
-**How many seats are available in one license?**
+**How many users are available in one license?**
 
-All SSIS Catalog Migration Wizard license editions offer multi-seat access per server and grant access to all the users on the server or computer where it is installed.
+All SSIS Catalog Migration Wizard license editions offer multi-user access per server and grant access to all the users on the server or computer where it is installed.
 
 **How many licenses do I need to buy for my SSISDB migration?**
 
