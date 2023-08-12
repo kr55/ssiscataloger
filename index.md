@@ -6,6 +6,7 @@ Do you want to:
 * migrate SSISDB from one server to another
 * migrate SSIS catalog from SQL Server 2012 to SQL Server 2022 (or any version of SQL Server).
 * migrate SSIS catalog environment variables from DEV to UAT etc.
+* trying to restore SSISDB without master key.
 * automate routine SSIS catalog migrations.
 
 Then you are at the right place!
