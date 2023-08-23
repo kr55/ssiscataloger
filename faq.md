@@ -32,10 +32,6 @@ SSIS Catalog Migration Wizard supports migration of SSISDB between SQL Server 20
 
 SSIS Catalog Migration Wizard migrates environment variables and project/package parameter server-side values from source to target SSISDB. Using a proactive recommendation process, you can also update their values during the migration.
 
-**Does SSIS Catalog Migration requires an internet connection to work?**
-
-SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the Internet to work. The Installer of the tool interacts with our license server only once over the internet.
-
 **My source and target SSISDB are in different networks/domains and do not have a direct connection. Will SSIS Catalog Migration Wizard work in this case?**
 
 SSIS Catalog Migration Wizard offers a .scmw file (an export format for SSISDB items). You can achieve SSISDB migrations across different domains. Export the source SSISDB in a .scmw file using SSIS Catalog Migration Wizard. Copy this file to the target server or computer where you have access to the target SQL Server (SSISDB). Import the scmw file to target SSISDB using SSIS Catalog Migration Wizard. Please note that you need to install SSIS Catalog Migration Wizard in source and target network machines. Learn more about it [here](https://azureops.org/articles/export-and-import-ssisdb/).
@@ -69,6 +65,10 @@ You will receive an email with a download link to the product and an activation 
 **I am facing issues with the migration; how can I get help?**
 
 The AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard users. You can contact a support agent from the product page live chat or email support@azureops.org with the problem statement.
+
+**Does SSIS Catalog Migration Wizard requires an internet connection to work?**
+
+SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the Internet to work. The Installer of the tool interacts with our license server only once over the internet.
 
 **What payment options are available?**
 
