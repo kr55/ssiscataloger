@@ -72,7 +72,7 @@ SSIS Catalog Migration Wizard is an offline tool; hence, it does not require the
 
 **What payment options are available?**
 
-We currently only accept payment via PayPal. If you do not have a PayPal account, PayPal generally offers to use a credit card without creating an account. However, this differs based on your country of origin. Check out PayPal [privacy policy](https://azureops.org/privacy-policy/). Reach out to our support in case of any payment issues.
+We currently only accept payment via PayPal. If you do not have a PayPal account, PayPal generally offers to use a credit card without creating an account. However, this differs based on your country of origin. Check out PayPal [privacy policy](https://www.paypal.com/us/legalhub/privacy-full). Reach out to our support in case of any payment issues.
  
 **Does this tool come with a refund policy?**
 
